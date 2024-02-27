@@ -1,0 +1,45 @@
+.expenses-filter {
+  color: white;
+  padding: 0 1rem;
+}
+
+.expenses-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.expenses-filter__control .value {
+  display: flex;
+  width: 90%;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+@media (max-width: 520px) {
+  .expenses-filter__control {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .expenses-filter__control .value {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,11 @@
+.chartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+}
+.chart {
+  color: "#341948";
+  background-color: rgb(31, 31, 31);
+}
